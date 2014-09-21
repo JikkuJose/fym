@@ -11,7 +11,10 @@ API wrapper for [FuckYeahMarkdown][fym] packaged as a Ruby gem.
 ``` ruby
 require 'fym'
 
-FYM::Converter.new(url: 'http://blog.com/article', run_markdownify: true).response_body #=> <Markdown converted string of the url>
+FYM::Converter.new(
+                   url: 'http: //blog.com/article',
+       run_markdownify: true
+                  ).response_body #=> <Markdown converted string of the url>
 ```
 
 ## Options
