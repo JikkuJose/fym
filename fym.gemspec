@@ -9,7 +9,10 @@ Gem::Specification.new do |s|
   s.summary       = "API wrapper for FYM"
   s.description   = "API wrapper for FYM service"
   s.files         = `git ls-files -z`.split("\x0")
+  s.license       = "MIT"
+  s.homepage      = "http://github.com/JikkuJose/fym"
   s.require_paths = ["lib"]
+  s.executables   = ["fym"]
 
   s.add_dependency 'unirest', '~> 1.1'
 
